@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elisa le Resto – Restaurant & traiteur fait maison à Amiens</title>
+  <meta name="description" content="Elisa le Resto, 4 rue des Chaudronniers à Amiens : une vraie cuisine maison aux épices, herbes et aromates. Sur place, à emporter et traiteur. Du mardi au samedi, 9h–18h.">
+  <link rel="canonical" href="https://www.elisaleresto.fr/">
+  <meta name="theme-color" content="#3F4A2A">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="restaurant">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Elisa le Resto">
+  <meta property="og:title" content="Elisa le Resto – L’autre façon de se restaurer">
+  <meta property="og:description" content="Cuisine maison aux épices et aux herbes, sur place, à emporter ou en traiteur. 4 rue des Chaudronniers, Amiens.">
+  <meta property="og:url" content="https://www.elisaleresto.fr/">
+  <meta property="og:image" content="https://www.elisaleresto.fr/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- Polices : 2 familles maximum -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Données structurées -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Elisa le Resto",
+    "slogan": "L’autre façon de se restaurer",
+    "description": "Restaurant, plats à emporter et traiteur : une vraie cuisine maison aux épices, herbes et aromates.",
+    "url": "https://www.elisaleresto.fr/",
+    "telephone": "+33322726224",
+    "image": "https://www.elisaleresto.fr/images/og-image.jpg",
+    "priceRange": "€",
+    "servesCuisine": ["Cuisine maison", "Cuisine du monde", "Traiteur"],
+    "acceptsReservations": "False",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4 rue des Chaudronniers",
+      "postalCode": "80000",
+      "addressLocality": "Amiens",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.8935,
+      "longitude": 2.2985
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }],
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=4+rue+des+Chaudronniers+80000+Amiens"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <!-- ===== EN-TÊTE ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#accueil" class="logo" aria-label="Elisa le Resto, retour à l’accueil">
+        <span class="logo__mark" aria-hidden="true">E</span>
+        <span class="logo__text">Elisa <em>le Resto</em></span>
+      </a>
+
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#services">La carte</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="nav__cta"><a href="tel:+33322726224" class="btn btn--small">03 22 72 62 24</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- ===== ACCUEIL ===== -->
+    <section class="hero" id="accueil" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="hero__kicker">Restaurant · À emporter · Traiteur — Amiens</p>
+          <h1 id="hero-title">L’autre façon <span>de se restaurer</span></h1>
+          <p class="hero__lead">Retrouvez ici une vraie cuisine&nbsp;: un goût naturel, des épices, des herbes et des aromates. À tout moment de la journée, en libre-service, sur place ou à emporter.</p>
+          <ul class="spices" aria-label="Nos ingrédients">
+            <li>Curcuma</li><li>Cumin</li><li>Aneth</li><li>Estragon</li><li>Menthe</li>
+          </ul>
+          <div class="hero__actions">
+            <a href="#services" class="btn">Voir la carte</a>
+            <a href="#carte" class="btn btn--ghost" data-tab-link="traiteur">Commander un traiteur</a>
+          </div>
+          <p class="status" id="status" aria-live="polite">Du mardi au samedi, 9h – 18h</p>
+        </div>
+        <div class="hero__media">
+          <img src="images/hero.jpg" data-fallback="images/hero.svg" alt="Table de mezze maison : houmous, taboulé, falafels et cuillères d’épices" width="1000" height="1125" fetchpriority="high">
+          <p class="hero__badge"><strong>Fait maison</strong> chaque jour</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES / CARTE ===== -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Nos services</p>
+          <h2 id="services-title">Trois façons de goûter la maison</h2>
+        </header>
+
+        <ul class="trio">
+          <li class="trio__item">
+            <span class="trio__num" aria-hidden="true">01</span>
+            <h3>Sur place</h3>
+            <p>Installez-vous au calme, rue des Chaudronniers, pour un déjeuner, une pause sucrée ou un petit creux en libre-service.</p>
+          </li>
+          <li class="trio__item">
+            <span class="trio__num" aria-hidden="true">02</span>
+            <h3>À emporter</h3>
+            <p>Wraps, salades, plats du jour et desserts maison, prêts à partir avec vous au bureau ou en balade.</p>
+          </li>
+          <li class="trio__item">
+            <span class="trio__num" aria-hidden="true">03</span>
+            <h3>Traiteur</h3>
+            <p>Cocktails, apéritifs dînatoires, plateaux repas et buffets pour vos réunions, fêtes et événements.</p>
+          </li>
+        </ul>
+
+        <!-- Onglets de la carte -->
+        <div class="menu" id="carte">
+          <div class="tabs" role="tablist" aria-label="Choisir une carte">
+            <button class="tab" role="tab" id="tab-resto" aria-controls="panel-resto" aria-selected="true">Sur place &amp; à emporter</button>
+            <button class="tab" role="tab" id="tab-traiteur" aria-controls="panel-traiteur" aria-selected="false" tabindex="-1">Traiteur &amp; cocktail</button>
+            <button class="tab" role="tab" id="tab-buffet" aria-controls="panel-buffet" aria-selected="false" tabindex="-1">Buffets</button>
+          </div>
+
+          <!-- Panneau 1 -->
+          <div class="panel slate" role="tabpanel" id="panel-resto" aria-labelledby="tab-resto" tabindex="0">
+            <p class="slate__note">La carte change au fil des saisons — demandez l’ardoise du jour&nbsp;!</p>
+            <div class="slate__cols">
+              <dl class="dishes">
+                <div class="dish">
+                  <dt>Wraps froids <span class="veg" title="Recettes végétariennes disponibles">V</span></dt>
+                  <dd class="dish__price">7,50 €</dd>
+                  <dd class="dish__desc">Norways Airlines, Douce France, Monsieur Seguin, Que Bella, English Cook, Mexicali, El Toro…</dd>
+                </div>
+                <div class="dish">
+                  <dt>Petites salades <span class="veg" title="Recettes végétariennes disponibles">V</span></dt>
+                  <dd class="dish__price">4,80 €</dd>
+                  <dd class="dish__desc">L’oncle Sam, Vacances en Grèce, Graines d’Orient, Joséphine, Salade du Puy…</dd>
+                </div>
+                <div class="dish">
+                  <dt>Soupe du jour</dt>
+                  <dd class="dish__price">4,80 €</dd>
+                  <dd class="dish__desc">Légumes de saison, herbes fraîches.</dd>
+                </div>
+                <div class="dish">
+                  <dt>Desserts maison</dt>
+                  <dd class="dish__price">3,80 – 4,80 €</dd>
+                  <dd class="dish__desc">Tarte périgourdine, cheesecake, Cacao plaisir, Le Verger, Rouge Baiser…</dd>
+                </div>
+              </dl>
+              <dl class="dishes">
+                <div class="dish">
+                  <dt>Plats chauds</dt>
+                  <dd class="dish__price">10,90 €</dd>
+                  <dd class="dish__desc">Selon l’ardoise&nbsp;: risottos, Salmon Garden, chili maison, pastilla au poulet, moussaka, lasagnes…</dd>
+                </div>
+                <div class="dish">
+                  <dt>Wraps chauds</dt>
+                  <dd class="dish__price">10,90 €</dd>
+                  <dd class="dish__desc">Servis avec une salade&nbsp;: roquefort-noix, chèvre-tomate, maroilles-cumin…</dd>
+                </div>
+                <div class="dish">
+                  <dt>Bruschettas</dt>
+                  <dd class="dish__price">10,90 €</dd>
+                  <dd class="dish__desc">Servies avec une salade.</dd>
+                </div>
+                <div class="dish">
+                  <dt>Cakes &amp; gourmandises</dt>
+                  <dd class="dish__price">2,50 – 3,80 €</dd>
+                  <dd class="dish__desc">English plum, douceur abricot-lavande, petits sucrés.</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+
+          <!-- Panneau 2 -->
+          <div class="panel slate" role="tabpanel" id="panel-traiteur" aria-labelledby="tab-traiteur" tabindex="0" hidden>
+            <p class="slate__note">Sur commande — minimum par recette indiqué sur devis.</p>
+            <div class="slate__cols">
+              <dl class="dishes">
+                <div class="dish">
+                  <dt>Plateau repas</dt>
+                  <dd class="dish__price">25,00 €</dd>
+                  <dd class="dish__desc">Avec couverts, pain, serviette et eau 50&nbsp;cl. À partir de 8 plateaux.</dd>
+                </div>
+                <div class="dish">
+                  <dt>Plateau mix apéro</dt>
+                  <dd class="dish__price">70,00 €</dd>
+                  <dd class="dish__desc">8 à 10 personnes&nbsp;: charcuteries, fromages affinés, pain aux céréales.</dd>
+                </div>
+                <div class="dish">
+                  <dt>Mini croques · 16 pièces</dt>
+                  <dd class="dish__price">28,00 €</dd>
+                  <dd class="dish__desc">Saumon-aneth, jambon cru-emmental, légumes confits, champignons à la truffe.</dd>
+                </div>
+                <div class="dish">
+                  <dt>Mini clubs · 16 pièces</dt>
+                  <dd class="dish__price">26,00 €</dd>
+                  <dd class="dish__desc">Quatre recettes, du saumon-aneth à la tapenade d’artichaut.</dd>
+                </div>
+              </dl>
+              <dl class="dishes">
+                <div class="dish">
+                  <dt>Verrines salées</dt>
+                  <dd class="dish__price">1,80 € / pièce</dd>
+                  <dd class="dish__desc">Tzatziki-mozza, guacamole-cheddar, quinoa-poulet…</dd>
+                </div>
+                <div class="dish">
+                  <dt>Mini brochettes, navettes, burgers</dt>
+                  <dd class="dish__price">1,80 – 2,20 €</dd>
+                  <dd class="dish__desc">Italienne, new-yorkaise, périgourdine au magret fumé…</dd>
+                </div>
+                <div class="dish">
+                  <dt>Cakes salés · 20 tranches</dt>
+                  <dd class="dish__price">32,00 €</dd>
+                  <dd class="dish__desc">Pesto, olives vertes, thon ou tomates confites.</dd>
+                </div>
+                <div class="dish">
+                  <dt>Douceurs</dt>
+                  <dd class="dish__price">1,50 – 2,20 €</dd>
+                  <dd class="dish__desc">Chouquettes garnies, tiramisu, verrines sucrées, mini tartelettes.</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+
+          <!-- Panneau 3 -->
+          <div class="panel slate" role="tabpanel" id="panel-buffet" aria-labelledby="tab-buffet" tabindex="0" hidden>
+            <p class="slate__note">Préparations servies sur plateaux décorés — à partir de 10 personnes.</p>
+            <div class="slate__cols">
+              <dl class="dishes">
+                <div class="dish">
+                  <dt>Entrées froides</dt>
+                  <dd class="dish__price">7,50 € / pers.</dd>
+                  <dd class="dish__desc">Cheesecake aux deux saumons, chèvre-tomate, tartare avocat-crevettes.</dd>
+                </div>
+                <div class="dish">
+                  <dt>Viandes &amp; poissons froids</dt>
+                  <dd class="dish__price">8,50 € / pers.</dd>
+                  <dd class="dish__desc">Poulet tandoori, gigot aux herbes, rôti de bœuf au poivre, églefin à l’estragon.</dd>
+                </div>
+                <div class="dish">
+                  <dt>Grandes salades</dt>
+                  <dd class="dish__price">4,80 € / pers.</dd>
+                  <dd class="dish__desc">Lentilles corail au curry, taboulé à la menthe, épeautre-comté…</dd>
+                </div>
+              </dl>
+              <dl class="dishes">
+                <div class="dish">
+                  <dt>Plats chauds</dt>
+                  <dd class="dish__price">16,50 € / pers.</dd>
+                  <dd class="dish__desc">Couscous 4 viandes, tajine de poulet aux citrons confits, paella, choucroute de la mer.</dd>
+                </div>
+                <div class="dish">
+                  <dt>Charcuteries · fromages</dt>
+                  <dd class="dish__price">6,50 € / pers.</dd>
+                  <dd class="dish__desc">100&nbsp;g par personne, pain aux céréales tranché en option (1&nbsp;€).</dd>
+                </div>
+                <div class="dish">
+                  <dt>Terrine de légumes maison</dt>
+                  <dd class="dish__price">56,00 €</dd>
+                  <dd class="dish__desc">Environ 20 tranches, légumes de saison.</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+
+          <p class="menu__cta">Un événement en vue&nbsp;? <a href="#contact" class="link">Demandez votre devis traiteur →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== À PROPOS ===== -->
+    <section class="section about" id="a-propos" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <figure class="about__media">
+          <img src="images/apropos.jpg" data-fallback="images/epices.svg" alt="Épices en poudre, graines, bâtons de cannelle et herbes sur fond sombre" width="900" height="1030" loading="lazy">
+        </figure>
+        <div class="about__text">
+          <p class="eyebrow eyebrow--light">À propos</p>
+          <h2 id="about-title">Une cuisine qui sent bon le vrai</h2>
+          <p>Chez Elisa, tout part d’une conviction simple&nbsp;: bien manger, c’est d’abord cuisiner soi-même de bons produits. Chaque matin, la cuisine s’active pour préparer les wraps, les salades, les plats du jour et les desserts qui garnissent la vitrine.</p>
+          <p>Pas de recette figée, mais des voyages&nbsp;: un tajine aux citrons confits, un chili qui réveille, une salade aux lentilles corail et au curry, une tarte périgourdine… Le fil rouge&nbsp;? Des épices, des herbes et des aromates, pour un goût naturel.</p>
+          <ul class="facts">
+            <li><strong>100&nbsp;%</strong> fait maison</li>
+            <li><strong>3</strong> façons de se régaler</li>
+            <li><strong>V</strong> options végétariennes</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERIE ===== -->
+    <section class="section gallery" id="galerie" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Galerie</p>
+          <h2 id="gallery-title">Ça se passe en cuisine</h2>
+        </header>
+        <ul class="gallery__grid">
+          <li class="g--tall"><button class="gallery__item" type="button" aria-label="Agrandir : wrap maison"><img src="images/galerie-wraps.jpg" data-fallback="images/galerie-wraps.svg" alt="Wrap garni coupé en deux, servi avec de la salade" width="700" height="930" loading="lazy"></button></li>
+          <li><button class="gallery__item" type="button" aria-label="Agrandir : grandes salades"><img src="images/galerie-salades.jpg" data-fallback="images/galerie-salades.svg" alt="Saladiers de salades composées colorées" width="800" height="600" loading="lazy"></button></li>
+          <li><button class="gallery__item" type="button" aria-label="Agrandir : verrines salées"><img src="images/galerie-verrines.jpg" data-fallback="images/galerie-verrines.svg" alt="Bouchées et verrines apéritives pour un cocktail" width="800" height="600" loading="lazy"></button></li>
+          <li class="g--wide"><button class="gallery__item" type="button" aria-label="Agrandir : tarte aux fruits"><img src="images/galerie-tartelettes.jpg" data-fallback="images/galerie-tartelettes.svg" alt="Tarte aux fraises fraîches" width="1200" height="600" loading="lazy"></button></li>
+          <li><button class="gallery__item" type="button" aria-label="Agrandir : buffet traiteur"><img src="images/galerie-plateau.jpg" data-fallback="images/galerie-plateau.svg" alt="Buffet traiteur dressé avec plats chauds et entrées" width="800" height="600" loading="lazy"></button></li>
+          <li><button class="gallery__item" type="button" aria-label="Agrandir : verrines sucrées"><img src="images/galerie-desserts.jpg" data-fallback="images/galerie-desserts.svg" alt="Dessert en verrine aux fraises et à la crème" width="800" height="600" loading="lazy"></button></li>
+        </ul>
+      </div>
+      <dialog class="lightbox" id="lightbox" aria-label="Photo agrandie">
+        <button class="lightbox__close" type="button" aria-label="Fermer">×</button>
+        <img src="" alt="">
+      </dialog>
+    </section>
+
+    <!-- ===== AVIS ===== -->
+    <!-- ⚠ AVIS D'EXEMPLE : à remplacer par de vrais avis clients (Google, TheFork…) avant mise en ligne. -->
+    <section class="section reviews" id="avis" aria-labelledby="reviews-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Avis</p>
+          <h2 id="reviews-title">Ils en parlent mieux que nous</h2>
+        </header>
+        <div class="reviews__grid">
+          <figure class="review">
+            <p class="review__stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <blockquote><p>« Texte d’avis à remplacer — par exemple un client qui parle des wraps et des plats du jour. »</p></blockquote>
+            <figcaption>Prénom N. · <span>Google</span></figcaption>
+          </figure>
+          <figure class="review">
+            <p class="review__stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <blockquote><p>« Texte d’avis à remplacer — par exemple un retour sur une prestation traiteur ou un buffet. »</p></blockquote>
+            <figcaption>Prénom N. · <span>Google</span></figcaption>
+          </figure>
+          <figure class="review">
+            <p class="review__stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <blockquote><p>« Texte d’avis à remplacer — par exemple un habitué qui parle de l’accueil et des desserts. »</p></blockquote>
+            <figcaption>Prénom N. · <span>Google</span></figcaption>
+          </figure>
+        </div>
+        <p class="reviews__more"><a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Elisa+le+Resto+Amiens" target="_blank" rel="noopener">Lire tous les avis sur Google →</a></p>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Passez nous voir</h2>
+        </header>
+
+        <div class="contact__grid">
+          <div class="contact__info">
+            <address>
+              <h3>Adresse</h3>
+              <p>4 rue des Chaudronniers<br>80000 Amiens</p>
+              <h3>Téléphone</h3>
+              <p><a class="link" href="tel:+33322726224">03 22 72 62 24</a></p>
+            </address>
+            <h3>Horaires</h3>
+            <table class="hours">
+              <caption class="sr-only">Horaires d’ouverture</caption>
+              <tbody>
+                <tr data-day="1"><th scope="row">Lundi</th><td>Fermé</td></tr>
+                <tr data-day="2"><th scope="row">Mardi</th><td>9h00 – 18h00</td></tr>
+                <tr data-day="3"><th scope="row">Mercredi</th><td>9h00 – 18h00</td></tr>
+                <tr data-day="4"><th scope="row">Jeudi</th><td>9h00 – 18h00</td></tr>
+                <tr data-day="5"><th scope="row">Vendredi</th><td>9h00 – 18h00</td></tr>
+                <tr data-day="6"><th scope="row">Samedi</th><td>9h00 – 18h00</td></tr>
+                <tr data-day="0"><th scope="row">Dimanche</th><td>Fermé</td></tr>
+              </tbody>
+            </table>
+            <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=4+rue+des+Chaudronniers+80000+Amiens" target="_blank" rel="noopener">Itinéraire</a>
+          </div>
+
+          <div class="contact__map">
+            <iframe
+              title="Carte : Elisa le Resto, 4 rue des Chaudronniers à Amiens"
+              src="https://www.google.com/maps?q=4+rue+des+Chaudronniers,+80000+Amiens&amp;output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+
+          <!-- Formulaire Web3Forms : remplacer VOTRE_CLE_WEB3FORMS par la clé reçue sur https://web3forms.com -->
+          <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <h3>Une question, un devis traiteur&nbsp;?</h3>
+            <input type="hidden" name="access_key" value="VOTRE_CLE_WEB3FORMS">
+            <input type="hidden" name="subject" value="Nouveau message depuis elisaleresto.fr">
+            <input type="checkbox" name="botcheck" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <div class="field">
+              <label for="f-name">Nom</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-email">E-mail</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="f-phone">Téléphone <span class="opt">(facultatif)</span></label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="f-type">Objet</label>
+              <select id="f-type" name="objet">
+                <option>Devis traiteur</option>
+                <option>Buffet / événement</option>
+                <option>Question générale</option>
+              </select>
+            </div>
+            <div class="field field--full">
+              <label for="f-msg">Message</label>
+              <textarea id="f-msg" name="message" rows="5" required placeholder="Date, nombre de personnes, envies…"></textarea>
+            </div>
+            <button type="submit" class="btn">Envoyer</button>
+            <p class="form__status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== PIED DE PAGE ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="logo logo--footer"><span class="logo__mark" aria-hidden="true">E</span><span class="logo__text">Elisa <em>le Resto</em></span></p>
+        <p>L’autre façon de se restaurer.</p>
+      </div>
+      <p>4 rue des Chaudronniers, 80000 Amiens<br><a href="tel:+33322726224">03 22 72 62 24</a></p>
+      <!-- Réseaux sociaux : décommenter et compléter les liens
+      <ul class="social">
+        <li><a href="https://www.instagram.com/..." target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.facebook.com/..." target="_blank" rel="noopener">Facebook</a></li>
+      </ul> -->
+      <p class="footer__legal">© <span id="year">2026</span> Elisa le Resto · <a href="mentions-legales.html">Mentions légales</a></p>
+    </div>
+  </footer>
+
+  <!-- ===== BARRE D'ACTIONS MOBILE ===== -->
+  <nav class="actionbar" aria-label="Actions rapides">
+    <a href="tel:+33322726224" class="actionbar__btn">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+      Appeler
+    </a>
+    <a href="#" class="actionbar__btn" id="wa-btn" target="_blank" rel="noopener" hidden>
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2s-1 .3-3.4-.7a11.8 11.8 0 0 1-4.6-4.1 5.2 5.2 0 0 1-1.1-2.8 3 3 0 0 1 1-2.2 1 1 0 0 1 .7-.3h.5c.2 0 .4 0 .6.5l.9 2.1a.5.5 0 0 1 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6a8.4 8.4 0 0 0 1.5 1.9 7.6 7.6 0 0 0 2.2 1.4c.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 .9c.3.2.5.2.5.4a2.4 2.4 0 0 1-.2 1.3z"/></svg>
+      WhatsApp
+    </a>
+    <a href="https://www.google.com/maps/dir/?api=1&amp;destination=4+rue+des+Chaudronniers+80000+Amiens" class="actionbar__btn" target="_blank" rel="noopener">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+      Itinéraire
+    </a>
+  </nav>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

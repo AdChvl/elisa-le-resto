@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9A825"/><stop offset="1" stop-color="#B5381F"/></linearGradient>
+    <pattern id="p" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.6" fill="#FBF5EA" opacity=".35"/></pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <rect width="100%" height="100%" fill="url(#p)"/>
+  <circle cx="400" cy="402" r="208" fill="#FBF5EA" opacity=".9"/>
+  <circle cx="400" cy="402" r="144" fill="none" stroke="#B5381F" stroke-width="3" stroke-dasharray="6 8"/>
+  <path d="M344 402 q56.00000000000001 -96 112.00000000000001 0 q-56.00000000000001 96 -112.00000000000001 0z" fill="#E9A825"/>
+  <text x="50%" y="706" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="60" fill="#FBF5EA">Photo principale</text>
+  <text x="50%" y="766" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#FBF5EA" opacity=".85">assiette maison · à remplacer</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E7B7A0"/><stop offset="1" stop-color="#B5627A"/></linearGradient>
+    <pattern id="p" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.6" fill="#FBF5EA" opacity=".35"/></pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <rect width="100%" height="100%" fill="url(#p)"/>
+  <circle cx="300" cy="198" r="117" fill="#FBF5EA" opacity=".9"/>
+  <circle cx="300" cy="198" r="81" fill="none" stroke="#B5627A" stroke-width="3" stroke-dasharray="6 8"/>
+  <path d="M268.5 198 q31.500000000000004 -54 63.00000000000001 0 q-31.500000000000004 54 -63.00000000000001 0z" fill="#E7B7A0"/>
+  <text x="50%" y="369" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="34" fill="#FBF5EA">Verrines sucrées</text>
+  <text x="50%" y="402.75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#FBF5EA" opacity=".85">à remplacer</text>
+</svg>
